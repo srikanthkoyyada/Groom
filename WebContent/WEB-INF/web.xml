@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Groom4More</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <display-name>Groom4More</display-name>
+  <filter>
+    <filter-name>struts2</filter-name>
+    <filter-class>
+	  	org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter
+	  </filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>struts2</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <session-config>
+    <session-timeout>300</session-timeout>
+  </session-config>
+  
+  <servlet>
+      <servlet-name>shine</servlet-name>
+      <jsp-file>/jsp/shine.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>shine</servlet-name>
+      <url-pattern>/shine</url-pattern>
+  </servlet-mapping>
+   <servlet>
+      <servlet-name>mockiit</servlet-name>
+      <jsp-file>/jsp/mock-iit.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>mockiit</servlet-name>
+      <url-pattern>/mockiit</url-pattern>
+  </servlet-mapping>
+   <servlet>
+      <servlet-name>mockeamcet</servlet-name>
+      <jsp-file>/jsp/mock-eamcet.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>mockeamcet</servlet-name>
+      <url-pattern>/mockeamcet</url-pattern>
+  </servlet-mapping>
+ 
+ <servlet>
+     <servlet-name>srichaitanya</servlet-name>
+     <jsp-file>/srichaitanya/index.jsp</jsp-file>
+ </servlet>
+ <servlet-mapping>
+     <servlet-name>srichaitanya</servlet-name>
+     <url-pattern>/srichaitanya</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+     <servlet-name>mocks</servlet-name>
+     <jsp-file>/mocks/index.jsp</jsp-file>
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>mocks</servlet-name>
+ 	<url-pattern>/mocks</url-pattern>
+ </servlet-mapping>
+ 
+</web-app>

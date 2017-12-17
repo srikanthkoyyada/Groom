@@ -1,0 +1,323 @@
+
+#loadbar {
+    position: absolute;
+    width: 62px;
+    height: 77px;
+    top: 2em
+}
+.blockG {
+    position: absolute;
+    background-color: #FFF;
+    width: 10px;
+    height: 24px;
+    -moz-border-radius: 8px 8px 0 0;
+    -moz-transform: scale(0.4);
+    -moz-animation-name: fadeG;
+    -moz-animation-duration: .8800000000000001s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: linear;
+    -webkit-border-radius: 8px 8px 0 0;
+    -webkit-transform: scale(0.4);
+    -webkit-animation-name: fadeG;
+    -webkit-animation-duration: .8800000000000001s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: linear;
+    -ms-border-radius: 8px 8px 0 0;
+    -ms-transform: scale(0.4);
+    -ms-animation-name: fadeG;
+    -ms-animation-duration: .8800000000000001s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-direction: linear;
+    -o-border-radius: 8px 8px 0 0;
+    -o-transform: scale(0.4);
+    -o-animation-name: fadeG;
+    -o-animation-duration: .8800000000000001s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-direction: linear;
+    border-radius: 8px 8px 0 0;
+    transform: scale(0.4);
+    animation-name: fadeG;
+    animation-duration: .8800000000000001s;
+    animation-iteration-count: infinite;
+    animation-direction: linear
+}
+#rotateG_01 {
+    left: 0;
+    top: 28px;
+    -moz-animation-delay: .33s;
+    -moz-transform: rotate(-90deg);
+    -webkit-animation-delay: .33s;
+    -webkit-transform: rotate(-90deg);
+    -ms-animation-delay: .33s;
+    -ms-transform: rotate(-90deg);
+    -o-animation-delay: .33s;
+    -o-transform: rotate(-90deg);
+    animation-delay: .33s;
+    transform: rotate(-90deg)
+}
+#rotateG_02 {
+    left: 8px;
+    top: 10px;
+    -moz-animation-delay: .44000000000000006s;
+    -moz-transform: rotate(-45deg);
+    -webkit-animation-delay: .44000000000000006s;
+    -webkit-transform: rotate(-45deg);
+    -ms-animation-delay: .44000000000000006s;
+    -ms-transform: rotate(-45deg);
+    -o-animation-delay: .44000000000000006s;
+    -o-transform: rotate(-45deg);
+    animation-delay: .44000000000000006s;
+    transform: rotate(-45deg)
+}
+#rotateG_03 {
+    left: 26px;
+    top: 3px;
+    -moz-animation-delay: .55s;
+    -moz-transform: rotate(0deg);
+    -webkit-animation-delay: .55s;
+    -webkit-transform: rotate(0deg);
+    -ms-animation-delay: .55s;
+    -ms-transform: rotate(0deg);
+    -o-animation-delay: .55s;
+    -o-transform: rotate(0deg);
+    animation-delay: .55s;
+    transform: rotate(0deg)
+}
+#rotateG_04 {
+    right: 8px;
+    top: 10px;
+    -moz-animation-delay: .66s;
+    -moz-transform: rotate(45deg);
+    -webkit-animation-delay: .66s;
+    -webkit-transform: rotate(45deg);
+    -ms-animation-delay: .66s;
+    -ms-transform: rotate(45deg);
+    -o-animation-delay: .66s;
+    -o-transform: rotate(45deg);
+    animation-delay: .66s;
+    transform: rotate(45deg)
+}
+#rotateG_05 {
+    right: 0;
+    top: 28px;
+    -moz-animation-delay: .7700000000000001s;
+    -moz-transform: rotate(90deg);
+    -webkit-animation-delay: .7700000000000001s;
+    -webkit-transform: rotate(90deg);
+    -ms-animation-delay: .7700000000000001s;
+    -ms-transform: rotate(90deg);
+    -o-animation-delay: .7700000000000001s;
+    -o-transform: rotate(90deg);
+    animation-delay: .7700000000000001s;
+    transform: rotate(90deg)
+}
+#rotateG_06 {
+    right: 8px;
+    bottom: 7px;
+    -moz-animation-delay: .8800000000000001s;
+    -moz-transform: rotate(135deg);
+    -webkit-animation-delay: .8800000000000001s;
+    -webkit-transform: rotate(135deg);
+    -ms-animation-delay: .8800000000000001s;
+    -ms-transform: rotate(135deg);
+    -o-animation-delay: .8800000000000001s;
+    -o-transform: rotate(135deg);
+    animation-delay: .8800000000000001s;
+    transform: rotate(135deg)
+}
+#rotateG_07 {
+    bottom: 0;
+    left: 26px;
+    -moz-animation-delay: .99s;
+    -moz-transform: rotate(180deg);
+    -webkit-animation-delay: .99s;
+    -webkit-transform: rotate(180deg);
+    -ms-animation-delay: .99s;
+    -ms-transform: rotate(180deg);
+    -o-animation-delay: .99s;
+    -o-transform: rotate(180deg);
+    animation-delay: .99s;
+    transform: rotate(180deg)
+}
+#rotateG_08 {
+    left: 8px;
+    bottom: 7px;
+    -moz-animation-delay: 1.1s;
+    -moz-transform: rotate(-135deg);
+    -webkit-animation-delay: 1.1s;
+    -webkit-transform: rotate(-135deg);
+    -ms-animation-delay: 1.1s;
+    -ms-transform: rotate(-135deg);
+    -o-animation-delay: 1.1s;
+    -o-transform: rotate(-135deg);
+    animation-delay: 1.1s;
+    transform: rotate(-135deg)
+}
+@-moz-keyframes fadeG {
+    0% {
+        background-color: #000
+    }
+
+    100% {
+        background-color: #FFF
+    }
+}
+
+@-webkit-keyframes fadeG {
+    0% {
+        background-color: #000
+    }
+
+    100% {
+        background-color: #FFF
+    }
+}
+
+@-ms-keyframes fadeG {
+    0% {
+        background-color: #000
+    }
+
+    100% {
+        background-color: #FFF
+    }
+}
+
+@-o-keyframes fadeG {
+    0% {
+        background-color: #000
+    }
+    100% {
+        background-color: #FFF
+    }
+}
+
+@keyframes fadeG {
+    0% {
+        background-color: #000
+    }
+
+    100% {
+        background-color: #FFF
+    }
+}
+/* quiz type - 2 */
+ .funkyradio div {
+    clear: both;
+    /*margin: 0 50px;*/
+    overflow: hidden;
+}
+.funkyradio label {
+    /*min-width: 400px;*/
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #D1D3D4;
+    font-weight: normal;
+}
+.funkyradio input[type="radio"]:empty, .funkyradio input[type="checkbox"]:empty {
+    display: none;
+}
+.funkyradio input[type="radio"]:empty ~ label, .funkyradio input[type="checkbox"]:empty ~ label {
+    position: relative;
+    line-height: 2.5em;
+    text-indent: 3.25em;
+    margin-top: 2em;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.funkyradio input[type="radio"]:empty ~ label:before, .funkyradio input[type="checkbox"]:empty ~ label:before {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    content:'';
+    width: 2.5em;
+    background: #D1D3D4;
+    border-radius: 3px 0 0 3px;
+}
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label:before, .funkyradio input[type="checkbox"]:hover:not(:checked) ~ label:before {
+    content:'\2714';
+    text-indent: .9em;
+    color: #C2C2C2;
+}
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label, .funkyradio input[type="checkbox"]:hover:not(:checked) ~ label {
+    color: #888;
+}
+.funkyradio input[type="radio"]:checked ~ label:before, .funkyradio input[type="checkbox"]:checked ~ label:before {
+    content:'\2714';
+    text-indent: .9em;
+    color: #333;
+    background-color: #ccc;
+}
+.funkyradio input[type="radio"]:checked ~ label, .funkyradio input[type="checkbox"]:checked ~ label {
+    color: #777;
+}
+.funkyradio input[type="radio"]:focus ~ label:before, .funkyradio input[type="checkbox"]:focus ~ label:before {
+    box-shadow: 0 0 0 3px #999;
+}
+.funkyradio-default input[type="radio"]:checked ~ label:before, .funkyradio-default input[type="checkbox"]:checked ~ label:before {
+    color: #333;
+    background-color: #ccc;
+}
+.funkyradio-primary input[type="radio"]:checked ~ label:before, .funkyradio-primary input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #337ab7;
+}
+.funkyradio-success input[type="radio"]:checked ~ label:before, .funkyradio-success input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #5cb85c;
+}
+.funkyradio-danger input[type="radio"]:checked ~ label:before, .funkyradio-danger input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #d9534f;
+}
+.funkyradio-warning input[type="radio"]:checked ~ label:before, .funkyradio-warning input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #f0ad4e;
+}
+.funkyradio-info input[type="radio"]:checked ~ label:before, .funkyradio-info input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #5bc0de;
+}
+/* quiz type - 2 */
+
+/* CSS for Teste page */
+	.box {
+  background:#fff;
+  transition:all 0.2s ease;
+  border:2px dashed #dadada;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-clip: padding-box;
+  padding:0 20px 20px 20px;
+  min-height:340px;
+}
+
+.box:hover {
+  border:2px solid #525C7A;
+}
+
+.box span.box-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.box .box-content {
+  padding: 16px;
+  border-radius: 0 0 2px 2px;
+  background-clip: padding-box;
+  box-sizing: border-box;
+}
+.box .box-content p {
+  color:#515c66;
+  text-transform:none;
+}
+	
+/* CSS for Teste page */

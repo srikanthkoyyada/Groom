@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The contents of this file will be loaded for each web application -->
+<Context crossContext="true">
+
+	<!-- Default set of monitored resources -->
+	<WatchedResource>WEB-INF/web.xml</WatchedResource>
+
+	<Resource name="jdbc/mydb" auth="Container" type="javax.sql.DataSource"
+		 username="groomusr"
+		password="Bojja9977" driverClassName="com.mysql.jdbc.Driver"
+		validationQuery="SELECT 1"
+		testOnBorrow="true"
+		allowMultiQueries="true"
+		url="jdbc:mysql://97.74.228.170:3306/groomdb"/>
+</Context>
