@@ -37,7 +37,9 @@
 <link rel="stylesheet"
 	href="<%=request.getContextPath()%>/js/prettyphoto/css/prettyPhoto.css"
 	type="text/css" media="all" />
-
+<style type="text/css">
+.dataTables_filter, .dataTables_info { display: none; }
+</style>
 </head>
 
 <body>
@@ -71,9 +73,13 @@
 
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1" align="center">
-						<h4 style="color: #393939;">Please read the following
-							instructions carefully before proceed for the test</h4>
-						<hr>
+						<div class="row">
+								<div class="col-md-8"></div>
+								<div class="col-md-4 form-group">
+									<input class="form-control input-lg" id="searchTextField" placeholder="Type here to seach by test name..">
+								</div>
+							</div>
+						
 						<div class="row alert alert-warning">
 							<div class="mc-count-item col-md-4"
 								style="padding: 0px !important;">
@@ -195,26 +201,28 @@
 		src='<%=request.getContextPath()%>/js/init.js'></script>
 	<script src="<%=request.getContextPath()%>/js/jquery.dataTables.js"></script>
 	<script src="<%=request.getContextPath()%>/js/dataTables.bootstrap.js"></script>
-	<script src="<%=request.getContextPath()%>/js/jquery.dataTables.js"></script>
-	<script src="<%=request.getContextPath()%>/js/dataTables.bootstrap.js"></script>
 	<script type="text/javascript">
 		if ('ontouchstart' in document.documentElement)
 			document.write("<script src='<%=request.getContextPath()%>"
 					+ "/js/jquery.mobile.custom.min.js'>" + "<"+"/script>");
 
 		$('document').ready(function() {
-			$('#test-topics').dataTable({
+			
+			var oTable=$('#test-topics').dataTable({
 				"sDom" : '<"row view-filter"<"col-xs-12"<"pull-right"l><"pull-right"f><"clearfix">>>t<"row view-pager"<"col-xs-12"<"pull-right"ip>>>',
 				"aLengthMenu" : false,
 				"bLengthChange" : false,
 				"bInfo" : false,
 				"bLength" : false,
 				"bSort" : false,
-				"bFilter" : false,
+				"bFilter" : true,
 				"iDisplayLength" : 5
 			});/* 
 			var amountOfRows = $("#test-topics  tbody  tr").length;
 			alert(amountOfRows); */
+			$('#searchTextField').on('keyup change', function(){
+				  oTable.api().search($(this).val()).draw();
+				})
 		});
 	</script>
 	<script>

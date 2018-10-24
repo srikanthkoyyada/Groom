@@ -11,5 +11,13 @@
 		validationQuery="SELECT 1"
 		testOnBorrow="true"
 		allowMultiQueries="true"
-		url="jdbc:mysql://97.74.228.170:3306/groomdb"/>
+		url="jdbc:mysql://132.148.86.42:3306/groomdb"/>
+		
+		<!-- <Resource name="jdbc/mydb" auth="Container" type="javax.sql.DataSource"
+		 username="root"
+		password="root" driverClassName="com.mysql.jdbc.Driver"
+		validationQuery="SELECT 1"
+		testOnBorrow="true"
+		allowMultiQueries="true"
+		url="jdbc:mysql://localhost:3306/groomdb"/> -->
 </Context>

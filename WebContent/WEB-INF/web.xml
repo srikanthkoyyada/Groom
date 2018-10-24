@@ -18,48 +18,44 @@
   <session-config>
     <session-timeout>300</session-timeout>
   </session-config>
-  
   <servlet>
-      <servlet-name>shine</servlet-name>
-      <jsp-file>/jsp/shine.jsp</jsp-file>
+    <servlet-name>shine</servlet-name>
+    <jsp-file>/jsp/shine.jsp</jsp-file>
   </servlet>
   <servlet-mapping>
-      <servlet-name>shine</servlet-name>
-      <url-pattern>/shine</url-pattern>
+    <servlet-name>shine</servlet-name>
+    <url-pattern>/shine</url-pattern>
   </servlet-mapping>
-   <servlet>
-      <servlet-name>mockiit</servlet-name>
-      <jsp-file>/jsp/mock-iit.jsp</jsp-file>
+  <servlet>
+    <servlet-name>mockiit</servlet-name>
+    <jsp-file>/jsp/mock-iit.jsp</jsp-file>
   </servlet>
   <servlet-mapping>
-      <servlet-name>mockiit</servlet-name>
-      <url-pattern>/mockiit</url-pattern>
+    <servlet-name>mockiit</servlet-name>
+    <url-pattern>/mockiit</url-pattern>
   </servlet-mapping>
-   <servlet>
-      <servlet-name>mockeamcet</servlet-name>
-      <jsp-file>/jsp/mock-eamcet.jsp</jsp-file>
+  <servlet>
+    <servlet-name>mockeamcet</servlet-name>
+    <jsp-file>/jsp/mock-eamcet.jsp</jsp-file>
   </servlet>
   <servlet-mapping>
-      <servlet-name>mockeamcet</servlet-name>
-      <url-pattern>/mockeamcet</url-pattern>
+    <servlet-name>mockeamcet</servlet-name>
+    <url-pattern>/mockeamcet</url-pattern>
   </servlet-mapping>
- 
- <servlet>
-     <servlet-name>srichaitanya</servlet-name>
-     <jsp-file>/srichaitanya/index.jsp</jsp-file>
- </servlet>
- <servlet-mapping>
-     <servlet-name>srichaitanya</servlet-name>
-     <url-pattern>/srichaitanya</url-pattern>
- </servlet-mapping>
- 
- <servlet>
-     <servlet-name>mocks</servlet-name>
-     <jsp-file>/mocks/index.jsp</jsp-file>
- </servlet>
- <servlet-mapping>
- 	<servlet-name>mocks</servlet-name>
- 	<url-pattern>/mocks</url-pattern>
- </servlet-mapping>
- 
+  <servlet>
+    <servlet-name>srichaitanya</servlet-name>
+    <jsp-file>/srichaitanya/index.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>srichaitanya</servlet-name>
+    <url-pattern>/srichaitanya</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>mocks</servlet-name>
+    <jsp-file>/mocks/index.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>mocks</servlet-name>
+    <url-pattern>/mocks</url-pattern>
+  </servlet-mapping>
 </web-app>

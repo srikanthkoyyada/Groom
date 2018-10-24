@@ -36,6 +36,16 @@ public class IITQuizQuestionsAction extends ActionSupport {
 	private String testDate;
 	private int quizSize;
 	private int testTime;
+	private int data;
+	
+
+	public int getData() {
+		return data;
+	}
+
+	public void setData(int data) {
+		this.data = data;
+	}
 
 	public String execute() throws Exception {
 		
@@ -44,6 +54,7 @@ public class IITQuizQuestionsAction extends ActionSupport {
 		setQuizSize(getQuestionsList().size());
 		setTopicid(getTopicid());
 		setTestTime(getQuestionsList().get(0).getTest_time());
+		setData(345);
 		return SUCCESS;
 	}
 

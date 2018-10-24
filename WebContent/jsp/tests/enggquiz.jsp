@@ -301,7 +301,8 @@ p {
 		<section class="page-top wrap">
 
 			<h2 class="page-section-title">Quiz</h2>
-
+	<p>Test</p>
+	<p><s:property value="data"/></p>
 		</section>
 		<!-- page-top -->
 		<div class="zz-bottom"></div>
